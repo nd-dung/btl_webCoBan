@@ -1,0 +1,188 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-weight: bold;
+}
+/* banner */
+.banner {
+    background: url(../assets/trangchu/bg_header_1.png);
+    padding: 16px 0;
+    padding-left: 50px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    padding: 12px 0;
+    font-size: 16px;
+    background-color: #cecfd0;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar_item {
+    border-right: 2px solid;
+    padding-right: 15px;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #cecfd0;
+}
+.mainpage {
+    width: 92%;
+    display:flex;
+    background-color: #fff;
+}
+.content{
+    width: 70%;
+    padding: 16px;
+}
+.rightside{
+    background-color: red;
+    width: 30%;
+}
+.lastest-news{
+    height: 350px;
+    display: flex;
+    padding-bottom: 16px;
+}
+.border-lastest-news{
+    display: flex;
+    justify-content: center;
+}
+.bottom-lastest-news{
+    background-color: #d1d1d1;
+    height: 8px;
+    width: 95%;
+}
+.left-lastest-news{
+    height: 350px;
+    background-color: rgb(86, 65, 161);
+    width: 60%;
+}
+.right-lastest-news{
+    height: 350px;
+    background-color: #e8f9ff;
+    width: 40%;
+}
+.right-items {
+    display: flex;
+    padding: 8px 10px;
+}
+.content-items{
+    margin: 0 auto;
+    padding-left: 8px;
+    color:rgb(33, 33, 33);
+    font-weight: 200;
+    font-size: 15px;
+}
+.img-items{
+    display: flex;
+    align-items: center;
+}
+.img-items img{
+    width: 70px;
+    height: 50px;
+}
+.body-banner img{
+    padding: 12px 0;
+    max-width: 100%;
+}
+.row-title{
+    margin-bottom: 10px;
+}
+.row-1-title{
+    display:flex;
+    justify-content: space-around;
+}
+.item-1-row-1{
+    height: 400px;
+    background-color: bisque;
+    width: 45%;
+}
+.item-2-row-1{
+    height: 400px;
+    background-color: rgb(27, 164, 27);
+    width: 45%;
+}
+.row-2-title{
+    display:flex;
+    justify-content: space-around;
+}
+.item-1-row-2{
+    height: 400px;
+    background-color: rgb(196, 203, 255);
+    width: 45%;
+}
+.item-2-row-2{
+    height: 400px;
+    background-color: rgb(164, 89, 27);
+    width: 45%;
+}
+.row-3-title{
+    display:flex;
+    justify-content: space-around;
+}
+.item-1-row-3{
+    height: 400px;
+    background-color: rgb(216, 127, 17);
+    width: 45%;
+}
+.item-2-row-3{
+    height: 400px;
+    background-color: rgb(174, 32, 53);
+    width: 45%;
+}
+.row-4-title{
+    display:flex;
+    justify-content: space-around;
+}
+.item-1-row-4{
+    height: 400px;
+    background-color: bisque;
+    width: 45%;
+}
+.item-2-row-4{
+    height: 400px;
+    background-color: rgb(27, 164, 27);
+    width: 45%;
+}
+.header-title{
+    border-left: 4px solid red;
+}
+.name-title{
+    color: red;
+    font-weight:400;
+}
+.content-title img{
+    max-width: 100%;
+}
+.line-subContent{
+    display: flex;
+}
+.line-subContent img{
+    width: 60px;
+    height: 40px;
+}
+.footer{
+    background: url(../assets/trangchu/footer.png);
+    height: 280px;
+    width: 100%;
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    position: relative;
+}
+.line-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+.footer *{
+    margin: 4px;
+}
